@@ -1,0 +1,13 @@
+    private func addSubscribers() {
+        //dataService.$basicPublisher
+       // dataService.currentValuePublisher
+        dataService.passThroughPublisher2
+        
+           // .first(where: { $0 > 5 })
+    @State private var size: CGSize = .zero
+    
+    var body: some View {
+        VStack {
+            Spacer()
+            Text("Hello World !!!")
+        }
